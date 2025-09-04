@@ -48,7 +48,7 @@ class _FormLoginState extends State<Login> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Login'),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Theme.of(context).colorScheme.error,
         centerTitle: true,
       ),
       body: Padding(

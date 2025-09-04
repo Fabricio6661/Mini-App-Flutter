@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:miniappflutter/screens/Calculadora.dart';
 import 'package:miniappflutter/screens/homescreen.dart';
 import 'package:miniappflutter/screens/login.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Login(),
+      home: CalculadoraScreen(),
     );
   }
 }

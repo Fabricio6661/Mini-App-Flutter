@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:miniappflutter/screens/homescreen.dart';
 import 'package:miniappflutter/screens/sobre_screen.dart';
-import 'package:miniappflutter/screens/sorteio_screen.dart';
+import 'package:miniappflutter/screens/Calculadora.dart';
 
 import '../screens/login.dart';
 
@@ -19,7 +19,7 @@ class MenuComponent extends StatelessWidget{
                 )
             ),
             ListTile(
-              title: Text("LOGIN"),
+              title: Text("Login"),
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context)=>
@@ -27,7 +27,7 @@ class MenuComponent extends StatelessWidget{
               },
             ),
             ListTile(
-              title: Text("HOME"),
+              title: Text("Home"),
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context)=>
@@ -35,15 +35,15 @@ class MenuComponent extends StatelessWidget{
               },
             ),
             ListTile(
-              title: Text("SORTEIO"),
+              title: Text("Calculadora"),
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context)=>
-                        SorteioScreen()));
+                        CalculadoraScreen()));
               },
             ),
             ListTile(
-              title: Text("SOBRE"),
+              title: Text("Sobre"),
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context)=>
